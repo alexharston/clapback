@@ -22,5 +22,5 @@ setup(
     ],
     keywords='clapback clap clapping emoji',
     packages=find_packages(),
-    install_requires=['argparse'],
+    install_requires=['argparse',],
 )
