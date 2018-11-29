@@ -3,7 +3,7 @@ import argparse
 clap = u"\U0001F44F"
 parser = argparse.ArgumentParser(description='CLAP BACK')
 parser.add_argument('words', type=str, nargs='+') 
-parser.add_argument('--louder', '-l')
+parser.add_argument('--louder', '-l', action="store_true")
 
 def clapBack(input):
 	wordlist = []
